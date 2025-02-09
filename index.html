@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=d, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
     <title>Duck form</title>
 </head>
+
 <body>
-    <form action="autocomplete" off>
-        <div class="login_section1">
-             <label for="name">FULL NAME</label>
-             <input type="text" id="txt_fullname" name="name" required></input>
-             <label for="email">EMAIL</label>
-             <input name="email" id="txt_email" placeholder="Your Email" required></input>
-             <label for="message_regarding"> MESSAGE REGARDING</label>
-             <input type="text" id="txt_messageregarding" name="message" required>
-             <label for="message">MESSAGE</label>
-             <input name="message" id="txt_message" placeholder="your Message" cols="30" required>Yours Message</input>
-             <button type="submit" class="btn__submit">Submit</button>
-        </div>
+    <main class="screen">
+            <form action="autocomplete" off>
+                <label for="name">FULL NAME</label>
+                <input type="text" id="txt_fullname" name="name" required=""></input>
+                <label for="email">EMAIL</label>
+                <input name="email" id="txt_email" placeholder="Your Email" required=""></input>
+                <label for="message_regarding"> MESSAGE REGARDING</label>
+                <input type="text" id="txt_messageregarding" name="message" required="">
+                <label for="message">MESSAGE</label>
+                <input name="message" id="txt_message" placeholder="Your Message" cols="30" required=""></input>
+                <button type="submit" class="btn_submit">Send Message</button>
+            </form>
         <div class="login_section2"></div>
         <div class="image_section">
-                <img src="images/duck.png" alt="duck image">
-         </div>   
-    </form>
+            <img src="images/duck.png" alt="duck image">
+        </div>
+    </main>
 </body>
+
 </html>
