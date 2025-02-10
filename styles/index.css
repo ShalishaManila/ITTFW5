@@ -3,6 +3,10 @@
     border: 0px;
 }
 
+body {
+    background-color: #9DBEBB;
+}
+
 .screen {
     height: 100vh;
     display: flex;
@@ -74,12 +78,10 @@ input:hover {
 }
 
 .btn_submit {
-    width: 300px;
+    width: 210px;
     height: 40px;
     align-self: center;
-    font-size: 30px;
-    box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 25px;
     background-color: #468189;
     box-shadow: 1px 1px 4px black;
     font-size: 20px;
