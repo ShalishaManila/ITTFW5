@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/index.css">
     <title>Duck form</title>
 </head>
@@ -11,14 +12,14 @@
 <body>
     <main class="screen">
         <form action="autocomplete" off>
-            <label for="name">FULL NAME</label>
-            <input type="text" id="txt_fullname" name="name" required=""></input>
-            <label for="email">EMAIL</label>
-            <input name="email" id="txt_email" placeholder="Your Email" required=""></input>
-            <label for="message_regarding"> MESSAGE REGARDING</label>
+            <label for="txt_fullname">FULL NAME</label>
+            <input type="text" id="txt_fullname" name="name" required="">
+            <label for="txt_email">EMAIL</label>
+            <input name="email" id="txt_email" placeholder="Your Email" required="">
+            <label for="txt_messageregarding"> MESSAGE REGARDING</label>
             <input type="text" id="txt_messageregarding" name="message" required="">
-            <label for="message">MESSAGE</label>
-            <input name="message" id="txt_message" placeholder="Your Message" cols="30" required=""></input>
+            <label for="txt_message">MESSAGE</label>
+            <input name="message" id="txt_message" placeholder="Your Message" cols="30" required="">
             <button type="submit" class="btn_submit">Send Message</button>
         </form>
         <div class="login_section2"></div>
